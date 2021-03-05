@@ -190,6 +190,7 @@ _____________________________________________________
   padding: 20px 40px;
   border-radius: 20px;
   margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 .main__cards {
@@ -269,6 +270,7 @@ _____________________________________________________
   padding: 20px 30px;
   background-color: #f2f2f2;
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .aside__card {
@@ -311,4 +313,158 @@ _____________________________________________________
 .popu3 {
   background: url(img/popu3.jpg) center no-repeat;
   background-size: cover;
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+ARTICLE
+_____________________________________________________
+
+***
+**
+*
+ */
+
+.article__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article__card {
+  width: 300px;
+  height: 445px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.article__group1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article__card2 {
+  width: 300px;
+  height: 235px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.article__card3 {
+  width: 300px;
+  height: 165px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.article__group2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article__card4 {
+  width: 300px;
+  height: 195px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.article__card5 {
+  width: 300px;
+  height: 205px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.article__img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.act1 {
+  width: 300px;
+  height: 390px;
+  background: url(img/act1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.act2 {
+  width: 300px;
+  height: 180px;
+  background: url(img/act2.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.act3 {
+  width: 300px;
+  height: 110px;
+  background: url(img/act3.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.act4 {
+  width: 300px;
+  height: 390px;
+  background: url(img/act4.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.act5 {
+  width: 300px;
+  height: 140px;
+  background: url(img/act5.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.act6 {
+  width: 300px;
+  height: 155px;
+  background: url(img/act6.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.article__txt {
+  padding: 10px;
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+FOOTER
+_____________________________________________________
+
+***
+**
+*
+ */
+
+.footer {
+  display: flex;
+  padding: 20px;
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.footer__about {
+  flex: 1;
+}
+
+.footer__hebergements {
+  flex: 1;
+}
+
+.footer__assistance {
+  flex: 1;
 }
