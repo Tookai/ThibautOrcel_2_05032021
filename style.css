@@ -2,4 +2,21 @@
   margin: 0;
   padding: 0;
   font-family: Reservia, sans-serif;
+  font-size: 14px;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
 }
