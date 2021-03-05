@@ -11,10 +11,12 @@ h1 {
 
 h2 {
   font-size: 1.25em;
+  padding: 10px 0;
 }
 
 h3 {
   font-size: 1.1em;
+  padding: 10px 0;
 }
 
 a {
@@ -350,7 +352,6 @@ _____________________________________________________
 .article__card2 {
   width: 300px;
   height: 235px;
-  margin: 15px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -358,7 +359,6 @@ _____________________________________________________
 .article__card3 {
   width: 300px;
   height: 165px;
-  margin: 15px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -372,7 +372,6 @@ _____________________________________________________
 .article__card4 {
   width: 300px;
   height: 195px;
-  margin: 15px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -380,7 +379,6 @@ _____________________________________________________
 .article__card5 {
   width: 300px;
   height: 205px;
-  margin: 15px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -457,14 +455,11 @@ _____________________________________________________
   background-color: #f2f2f2;
 }
 
-.footer__about {
-  flex: 1;
-}
-
-.footer__hebergements {
-  flex: 1;
-}
-
+.footer__about,
+.footer__hebergements,
 .footer__assistance {
   flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
