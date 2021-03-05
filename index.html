@@ -26,23 +26,25 @@
 
       <!-- Section de recherche / filtres -->
 
-      <nav>
+      <nav class="nav">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
-        <input type="text" value="Marseille, France" />
-        <button>Rechercher</button>
-        <div>
-          <h2>Filtres</h2>
-          <span style="font-size: 3em; color: Tomato">
-            <i class="fas fa-camera"></i>
-          </span>
-          <i class="fas fa-money-bill-wave"></i>
-          <a href="#"> <img src="img/bill.svg" alt="billet" width="20px" height="auto" /> Économique </a>
-          <a href="#"> <img src="img/family.svg" alt="bonhomme" width="auto" height="20px" /> Familial </a>
-          <a href="#"> <img src="img/heart.svg" alt="coeur" width="20px" height="auto" /> Romantique </a>
-          <a href="#"> <img src="img/dog.svg" alt="chien" width="20px" height="auto" /> Animaux autorisés </a>
+        <div class="nav__search">
+          <img src="img/map.svg" alt="" class="nav__img" />
+          <input type="text" value="Marseille, France" class="nav__input" />
+          <button class="nav__button">Rechercher</button>
         </div>
-        <p><img src="img/info.svg" alt="infos" width="auto" height="12px" /> Plus de 500 logements sont disponibles dans cette ville</p>
+        <div class="nav__filter">
+          <h2>Filtres</h2>
+          <a href="#"> <img src="img/bill.svg" alt="billet" width="20px" height="auto" class="nav__icon" /> Économique </a>
+          <a href="#"> <img src="img/family.svg" alt="bonhomme" width="auto" height="20px" class="nav__icon" /> Familial </a>
+          <a href="#"> <img src="img/heart.svg" alt="coeur" width="20px" height="auto" class="nav__icon" /> Romantique </a>
+          <a href="#"> <img src="img/dog.svg" alt="chien" width="20px" height="auto" class="nav__icon" /> Animaux autorisés </a>
+        </div>
+        <p class="nav__infos">
+          <img src="img/info.svg" alt="infos" width="auto" height="12px" class="nav__icon" /> Plus de 500 logements sont disponibles dans
+          cette ville
+        </p>
       </nav>
 
       <!-- Section Hébergements -->
