@@ -2,11 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: Raleway, sans-serif;
-  font-size: 14px;
-}
-
-p {
-  font-size: 1em;
 }
 
 h1 {
@@ -24,4 +19,48 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.header__logo {
+  width: 120px;
+  height: auto;
+}
+
+.header__link a {
+  font-size: 1.2em;
+  padding: 30px;
+  padding-top: 65px;
+  border-top: 4px solid white;
+}
+
+.header__link a:hover {
+  background-color: #deebff;
+}
+
+.header__link a:nth-child(1) {
+  border-top: 4px solid #0065fc;
+  color: #0065fc;
+}
+
+.header__link a:nth-child(3) {
+  color: #0065fc;
+  font-weight: bold;
 }
