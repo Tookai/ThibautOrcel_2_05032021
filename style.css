@@ -162,6 +162,21 @@ _____________________________________________________
 **
 ***
 _____________________________________________________
+Column
+_____________________________________________________
+
+***
+**
+*
+ */
+.column {
+  display: flex;
+}
+/*
+* 
+**
+***
+_____________________________________________________
 MAIN
 _____________________________________________________
 
@@ -169,6 +184,73 @@ _____________________________________________________
 **
 *
  */
+.main {
+  max-width: 880px;
+  background-color: #f2f2f2;
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.main__card {
+  width: 245px;
+  height: 200px;
+  padding: 5px;
+  background-color: white;
+  margin: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.main__img {
+  width: 235px;
+  height: 115px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.apt1 {
+  background: url(img/apt1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.apt2 {
+  background: url(img/apt2.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.apt3 {
+  background: url(img/apt3.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.apt4 {
+  background: url(img/apt4.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.apt5 {
+  background: url(img/apt5.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.apt6 {
+  background: url(img/apt6.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.main__card h3,
+.main__card div,
+.main__card p {
+  padding: 4px;
+}
 
 /*
 * 
@@ -182,3 +264,31 @@ _____________________________________________________
 **
 *
  */
+.aside {
+  width: 380px;
+  padding: 20px 30px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.aside__card {
+  width: 345px;
+  height: 145px;
+  padding: 5px;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside__img {
+  width: 125px;
+  height: 135px;
+}
+
+.popu1 {
+  background: url(img/popu1.jpg) center no-repeat;
+  background-size: cover;
+}
