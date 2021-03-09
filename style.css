@@ -2,25 +2,29 @@
   margin: 0;
   padding: 0;
   font-family: Raleway, sans-serif;
+  font-size: 16px;
 }
 
 h1 {
-  font-size: 1.4em;
-  padding: 10px 0;
+  font-size: 1.5rem; /* UTILISER REM au lieu de EM */
+  padding: 0.6rem 0;
 }
 
 h2 {
-  font-size: 1.25em;
-  padding: 10px 0;
+  font-size: 1.25rem;
+  padding: 0.6rem 0;
 }
 
 h3 {
-  font-size: 1.1em;
-  padding: 10px 0;
+  font-size: 1.1rem;
+  padding: 0.6rem 0;
 }
 
 a {
   text-decoration: none;
+}
+
+a:visited {
   color: inherit;
 }
 
@@ -30,9 +34,9 @@ body {
 
 .container {
   background-color: white;
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 1.25rem;
 }
 
 /*
@@ -52,7 +56,7 @@ _____________________________________________________
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 0;
+  height: 120px;
 }
 
 .header__logo {
@@ -61,9 +65,9 @@ _____________________________________________________
 }
 
 .header__link a {
-  font-size: 1.2em;
-  padding: 30px;
-  /*   padding-top: 65px; */
+  font-size: 1.2rem;
+  padding: 1.25rem;
+  padding-top: 45px;
   border-top: 4px solid white;
 }
 
@@ -95,7 +99,7 @@ _____________________________________________________
  */
 .nav__search {
   display: flex;
-  padding: 10px 0;
+  padding: 0.6rem 0;
 }
 
 .nav__img {
@@ -103,7 +107,7 @@ _____________________________________________________
   background-color: #f2f2f2;
   width: 20px;
   height: 60px;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -114,14 +118,14 @@ _____________________________________________________
   border: none;
   background-color: #f2f2f2;
   outline: none;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .nav__button {
   height: 60px;
   width: 155px;
-  padding: 10px;
+  padding: 0.6rem;
   border: none;
   outline: none;
   font-size: 700;
@@ -130,7 +134,7 @@ _____________________________________________________
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .nav__button:active {
@@ -138,15 +142,16 @@ _____________________________________________________
 }
 
 .nav__filter {
-  width: 940px;
+  max-width: 940px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 10px 0;
+  padding: 0.6rem 0;
 }
 
 .nav__icon {
-  display: none;
+  fill: blue;
 }
 
 .nav__filter a {
@@ -156,7 +161,7 @@ _____________________________________________________
 }
 
 .nav__infos {
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 /*
@@ -173,6 +178,7 @@ _____________________________________________________
  */
 .column {
   display: flex;
+  justify-content: space-between;
 }
 /*
 * 
@@ -187,72 +193,42 @@ _____________________________________________________
 *
  */
 .main {
-  max-width: 880px;
+  flex: 0.7;
   background-color: #f2f2f2;
   padding: 20px 40px;
   border-radius: 20px;
-  margin-right: 30px;
-  margin-bottom: 20px;
+  margin-right: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .main__cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .main__card {
   width: 245px;
   height: 200px;
-  padding: 5px;
+  padding: 0.25rem;
   background-color: white;
-  margin: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .main__img {
-  width: 235px;
+  width: 245px;
   height: 115px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.apt1 {
-  background: url(img/apt1.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.apt2 {
-  background: url(img/apt2.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.apt3 {
-  background: url(img/apt3.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.apt4 {
-  background: url(img/apt4.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.apt5 {
-  background: url(img/apt5.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.apt6 {
-  background: url(img/apt6.jpg) center no-repeat;
-  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
 }
 
 .main__card h3,
 .main__card div,
 .main__card p {
-  padding: 4px;
+  padding: 0.25rem;
 }
 
 /*
@@ -268,19 +244,19 @@ _____________________________________________________
 *
  */
 .aside {
-  width: 380px;
-  padding: 20px 30px;
+  flex: 0.3;
+  padding: 1.25rem;
   background-color: #f2f2f2;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .aside__card {
   width: 345px;
   height: 145px;
-  padding: 5px;
+  padding: 0.25rem;
   background-color: white;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: flex;
@@ -290,8 +266,9 @@ _____________________________________________________
 .aside__img {
   width: 130px;
   height: 145px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  object-fit: cover;
 }
 
 .aside__txt {
@@ -299,22 +276,7 @@ _____________________________________________________
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
-}
-
-.popu1 {
-  background: url(img/popu1.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.popu2 {
-  background: url(img/popu2.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.popu3 {
-  background: url(img/popu3.jpg) center no-repeat;
-  background-size: cover;
+  padding: 0.2rem 1rem;
 }
 
 /*
@@ -334,13 +296,18 @@ _____________________________________________________
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 1.25rem;
+}
+
+.article__card--style {
+  margin: 0.25rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .article__card {
   width: 300px;
   height: 445px;
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .article__group1 {
@@ -352,15 +319,11 @@ _____________________________________________________
 .article__card2 {
   width: 300px;
   height: 235px;
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .article__card3 {
   width: 300px;
   height: 165px;
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .article__group2 {
@@ -372,62 +335,42 @@ _____________________________________________________
 .article__card4 {
   width: 300px;
   height: 195px;
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .article__card5 {
   width: 300px;
   height: 205px;
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .article__img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  object-fit: cover;
 }
 
 .act1 {
   width: 300px;
   height: 390px;
-  background: url(img/act1.jpg) center no-repeat;
-  background-size: cover;
 }
 
 .act2 {
   width: 300px;
   height: 180px;
-  background: url(img/act2.jpg) center no-repeat;
-  background-size: cover;
 }
 
 .act3 {
   width: 300px;
   height: 110px;
-  background: url(img/act3.jpg) center no-repeat;
-  background-size: cover;
-}
-
-.act4 {
-  width: 300px;
-  height: 390px;
-  background: url(img/act4.jpg) center no-repeat;
-  background-size: cover;
 }
 
 .act5 {
   width: 300px;
   height: 140px;
-  background: url(img/act5.jpg) center no-repeat;
-  background-size: cover;
 }
 
 .act6 {
   width: 300px;
   height: 155px;
-  background: url(img/act6.jpg) center no-repeat;
-  background-size: cover;
 }
 
 .article__txt {
@@ -449,8 +392,8 @@ _____________________________________________________
 
 .footer {
   display: flex;
-  padding: 20px;
-  width: 1400px;
+  padding: 1.25rem;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: #f2f2f2;
 }
@@ -459,7 +402,7 @@ _____________________________________________________
 .footer__hebergements,
 .footer__assistance {
   flex: 1;
-  padding: 10px;
+  padding: 0.6rem;
   display: flex;
   flex-direction: column;
 }
