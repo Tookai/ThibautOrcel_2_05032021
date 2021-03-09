@@ -7,17 +7,17 @@
 
 h1 {
   font-size: 1.5rem; /* UTILISER REM au lieu de EM */
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 
 h2 {
   font-size: 1.25rem;
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 
 h3 {
   font-size: 1.1rem;
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 
 a {
@@ -34,9 +34,9 @@ body {
 
 .container {
   background-color: white;
-  max-width: 1400px;
+  max-width: 1340px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 3.125rem;
 }
 
 /*
@@ -161,7 +161,7 @@ _____________________________________________________
 }
 
 .nav__infos {
-  padding: 1.25rem 0;
+  padding: 1.25rem 0 2rem 0;
 }
 
 /*
@@ -194,16 +194,18 @@ _____________________________________________________
  */
 .main {
   flex: 0.7;
+  min-width: 510px;
   background-color: #f2f2f2;
-  padding: 20px 40px;
-  border-radius: 20px;
+  padding: 1.25rem;
+  border-radius: 1rem;
   margin-right: 2rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.75rem;
 }
 
 .main__cards {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   flex-wrap: wrap;
 }
 
@@ -213,15 +215,15 @@ _____________________________________________________
   padding: 0.25rem;
   background-color: white;
   margin-bottom: 2rem;
-  border-radius: 10px;
+  border-radius: 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .main__img {
   width: 245px;
   height: 115px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   object-fit: cover;
 }
 
@@ -245,10 +247,11 @@ _____________________________________________________
  */
 .aside {
   flex: 0.3;
+  min-width: 350px;
   padding: 1.25rem;
   background-color: #f2f2f2;
-  border-radius: 20px;
-  margin-bottom: 1.25rem;
+  border-radius: 1rem;
+  margin-bottom: 2.75rem;
 }
 
 .aside__card {
@@ -296,7 +299,7 @@ _____________________________________________________
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 1.25rem;
+  padding-bottom: 3.75rem;
 }
 
 .article__card--style {
@@ -392,8 +395,8 @@ _____________________________________________________
 
 .footer {
   display: flex;
-  padding: 1.25rem;
-  max-width: 1400px;
+  padding: 2.125rem 3.125rem;
+  max-width: 1340px;
   margin: 0 auto;
   background-color: #f2f2f2;
 }
@@ -405,4 +408,10 @@ _____________________________________________________
   padding: 0.6rem;
   display: flex;
   flex-direction: column;
+}
+
+.footer__about a,
+.footer__hebergements a,
+.footer__assistance a {
+  padding: 0.3rem 0;
 }
