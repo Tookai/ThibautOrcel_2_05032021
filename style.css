@@ -39,6 +39,7 @@ i {
 .container {
   background-color: white;
   max-width: 1340px;
+  min-width: 980px;
   margin: 0 auto;
   padding: 0 3.125rem;
 }
@@ -260,6 +261,12 @@ _____________________________________________________
   margin-bottom: 2.75rem;
 }
 
+.aside__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .aside__card {
   width: 345px;
   height: 145px;
@@ -420,4 +427,31 @@ _____________________________________________________
 .footer__hebergements a,
 .footer__assistance a {
   padding: 0.3rem 0;
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+MOBILE
+_____________________________________________________
+
+***
+**
+*
+ */
+
+@media only screen and (max-width: 375px) {
+  .container {
+    padding: 0;
+  }
+
+  .column {
+    flex-direction: column-reverse;
+  }
+
+  .article__cards {
+    flex-direction: column;
+  }
 }
