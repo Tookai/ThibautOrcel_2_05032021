@@ -155,6 +155,13 @@ _____________________________________________________
   /* padding: 0.3rem 0; */
 }
 
+.nav__filters {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
 .nav__icon {
   padding: 1rem;
   background-color: #deebff;
@@ -427,31 +434,4 @@ _____________________________________________________
 .footer__hebergements a,
 .footer__assistance a {
   padding: 0.3rem 0;
-}
-
-/*
-* 
-**
-***
-_____________________________________________________
-MOBILE
-_____________________________________________________
-
-***
-**
-*
- */
-
-@media only screen and (max-width: 375px) {
-  .container {
-    padding: 0;
-  }
-
-  .column {
-    flex-direction: column-reverse;
-  }
-
-  .article__cards {
-    flex-direction: column;
-  }
 }
