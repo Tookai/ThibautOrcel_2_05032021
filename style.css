@@ -7,7 +7,7 @@
 
 h1 {
   font-size: 1.5rem;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 h2 {
@@ -45,7 +45,7 @@ i {
 }
 
 .to-border {
-  border: solid 0.2rem #eee;
+  border: solid 0.15rem #eee;
   border-radius: 100%;
   padding: 0.3rem 0.6rem;
   margin-right: 0.5rem;
@@ -69,6 +69,10 @@ _____________________________________________________
   justify-content: space-between;
   align-items: center;
   height: 7.5rem;
+}
+
+.header__sub1 {
+  display: none;
 }
 
 .header__logo {
@@ -148,6 +152,10 @@ _____________________________________________________
   border: 0.25rem solid black;
 }
 
+.nav__button i {
+  display: none;
+}
+
 .nav__filter {
   max-width: 59rem;
   display: flex;
@@ -165,7 +173,7 @@ _____________________________________________________
 
 .nav__icon {
   padding: 1rem;
-  margin: -0.2rem; /* rajouter des marges négatives */
+  margin: -0.15rem; /* rajouter des marges négatives */
   margin-left: -0.25rem;
   margin-right: 0.75rem;
   background-color: #deebff;
@@ -182,6 +190,9 @@ _____________________________________________________
   padding: 1.25rem 0 2rem 0;
 }
 
+.nav__infos i {
+  font-size: 0.75rem;
+}
 /*
 * 
 **
@@ -276,6 +287,10 @@ _____________________________________________________
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.aside__title i {
+  font-size: 1.5rem;
 }
 
 .aside__card {

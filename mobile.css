@@ -14,42 +14,236 @@ _____________________________________________________
 @media only screen and (max-width: 375px) {
   * {
     font-size: 16px;
+    box-sizing: border-box;
   }
 
   .container {
     padding: 0;
+    width: 375px;
+    max-width: 375px;
     min-width: 375px;
   }
 
+  /* HEADER */
+
+  .header {
+    display: block;
+    padding: 0;
+    width: 375px;
+    height: 8.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .header__sub1 {
+    display: inline;
+    font-weight: bold;
+  }
+
+  .header__sub2 {
+    display: none;
+  }
+
+  .header__tittle {
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0065fc;
+  }
+
+  .header__link {
+    display: flex;
+    text-align: center;
+  }
+
+  .header__link a {
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 0rem solid white;
+    border-bottom: 0.2em solid #f2f2f2;
+  }
+
+  .header__link a:nth-child(1) {
+    border-top: 0rem solid #0065fc;
+    border-bottom: 0.2rem solid #0065fc;
+    color: #0065fc;
+  }
+
+  /* header */
+
+  /* NAV */
+
+  .nav {
+    padding: 0 1.25rem;
+    width: 375px;
+  }
+
+  .nav__search {
+    margin-top: 2rem;
+  }
+
+  .nav__img {
+    vertical-align: middle;
+    background-color: #f2f2f2;
+    width: 52px;
+    height: 52px;
+    padding: 0 1.25rem;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+  }
+
+  .nav__input {
+    width: 239px;
+    height: 52px;
+  }
+
+  .nav__button {
+    height: 52px;
+    width: 52px;
+    font-size: 0rem;
+    border-radius: 1rem;
+    margin-left: -10px;
+  }
+
+  .nav__button i {
+    display: inline;
+  }
+
+  .nav__filter {
+    max-width: 375px;
+    display: block;
+  }
+
+  .nav__filters {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .nav__filters a {
+    border: 0.15rem solid lightgray;
+    margin-right: 14px;
+    margin-bottom: 14px;
+  }
+
+  .nav__infos {
+    display: flex;
+    align-items: start;
+    padding: 1.25rem 0 2rem 0;
+  }
+
+  /* nav */
+
   .column {
     flex-direction: column-reverse;
+  }
+
+  /* MAIN */
+  .main {
+    padding: 2rem 1.25rem;
+    width: 375px;
+    min-width: 0;
+    background-color: white;
+    margin-bottom: 0;
+  }
+
+  .main__card {
+    width: 20.9rem;
+    height: 12.5rem;
+    padding: 0.25rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .main__img {
+    width: 20.4rem;
+  }
+
+  .main__card h3,
+  .main__card div,
+  .main__card p {
+    padding: 0.15rem;
+    padding-left: 1rem;
+  }
+
+  /* main */
+
+  /* ASIDE */
+  .aside {
+    padding: 2rem 1.25rem;
+    width: 375px;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .aside__card {
+    width: 20.9rem;
+    height: 9.0625rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .aside__img {
+    width: 8.125rem;
+    height: 137px;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+    object-fit: cover;
+  }
+
+  /* aside */
+
+  /* ARTICLE */
+
+  .article {
+    padding: 0 1.25rem;
+    width: 375px;
   }
 
   .article__cards {
     flex-direction: column;
   }
 
-  .aside {
-    flex: 1;
-    padding: 1.25rem 0;
-    min-width: none;
-    border-radius: 0;
+  .article__card,
+  .article__card2,
+  .article__card3,
+  .article__card5,
+  .article__card6 {
+    width: 20.9rem;
+    height: 190px;
+    margin-bottom: 1rem;
   }
 
-  .main {
-    flex: 1;
-    min-width: 375px;
-    padding: 1.25rem 0;
-    margin-right: 0;
-    margin-bottom: 2.75rem;
-    background-color: white;
+  .act1,
+  .act2,
+  .act3,
+  .act5,
+  .act6 {
+    width: 20.9rem;
+    height: 135px;
   }
+
+  /* article */
+
+  /* FOOTER */
 
   .footer {
+    padding: 2rem 1.25rem;
+    padding-bottom: 10rem;
+    width: 375px;
+    flex-direction: column;
+  }
+
+  .footer__about,
+  .footer__hebergements,
+  .footer__assistance {
+    flex: 1;
+    padding: 0.6rem 0;
     display: flex;
     flex-direction: column;
-    padding: 2.125rem 0rem;
-    min-width: 375px;
-    background-color: #f2f2f2;
   }
+
+  /* footer */
 }

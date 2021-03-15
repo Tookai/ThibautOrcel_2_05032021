@@ -22,13 +22,14 @@
       <!-- Entête du site -->
 
       <header class="header">
-        <div>
+        <div class="header__tittle">
           <img src="img/reservia.png" alt="Logo Reservia" class="header__logo" />
+          <a href="#" class="header__sub1">S'inscrire</a>
         </div>
         <div class="header__link">
           <a href="#hebergements">Hébergements</a>
           <a href="#activite">Activités</a>
-          <a href="#">S'inscrire</a>
+          <a href="#" class="header__sub2">S'inscrire</a>
         </div>
       </header>
 
@@ -40,7 +41,7 @@
         <div class="nav__search">
           <img src="img/map.svg" alt="" class="nav__img" />
           <input type="text" value="Marseille, France" class="nav__input" />
-          <button class="nav__button">Rechercher</button>
+          <button class="nav__button"><i class="fas fa-search" style="color: white"></i>Rechercher</button>
         </div>
         <div class="nav__filter">
           <h2>Filtres</h2>
@@ -67,11 +68,11 @@
             </a>
           </div>
         </div>
-        <p class="nav__infos">
+        <div class="nav__infos">
           <!-- <img src="img/info.svg" alt="infos" width="auto" height="12px" class="nav__icon blue__icon" /> -->
-          <i class="fas to-border fa-info"></i>
-          Plus de 500 logements sont disponibles dans cette ville
-        </p>
+          <span><i class="fas to-border fa-info"></i></span>
+          <span>Plus de 500 logements sont disponibles dans cette ville</span>
+        </div>
       </nav>
 
       <!-- Section Hébergements -->
@@ -269,7 +270,7 @@
 
       <!-- Section Activités à Marseille -->
 
-      <article>
+      <article class="article">
         <h1 id="activite">Activités à Marseille</h1>
         <div class="article__cards">
           <a href="#" class="article__card article__card--style">
@@ -292,12 +293,12 @@
             <h3 class="article__txt">Parc National des Calanques</h3>
           </a>
           <div class="article__group2">
-            <a href="#" class="article__card4 article__card--style">
+            <a href="#" class="article__card5 article__card--style">
               <img src="img/act5.jpg" alt="vieux port" class="article__img act5" />
               <h3 class="article__txt">Notre-Dame-de-la-Garde</h3>
             </a>
 
-            <a href="#" class="article__card5 article__card--style">
+            <a href="#" class="article__card6 article__card--style">
               <img src="img/act6.jpg" alt="vieux port" class="article__img act6" />
               <h3 class="article__txt">Parc Longchamp</h3>
             </a>
