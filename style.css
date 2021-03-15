@@ -7,7 +7,7 @@
 
 h1 {
   font-size: 1.5rem;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 h2 {
@@ -38,10 +38,17 @@ i {
 
 .container {
   background-color: white;
-  max-width: 1340px;
-  min-width: 980px;
+  max-width: 83.75rem;
+  min-width: 61.25rem;
   margin: 0 auto;
   padding: 0 3.125rem;
+}
+
+.to-border {
+  border: solid 0.2rem #eee;
+  border-radius: 100%;
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.5rem;
 }
 
 /*
@@ -61,27 +68,23 @@ _____________________________________________________
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
+  height: 7.5rem;
 }
 
 .header__logo {
-  width: 120px;
+  width: 7.5rem;
   height: auto;
 }
 
 .header__link a {
   font-size: 1.2rem;
   padding: 1.25rem;
-  padding-top: 45px;
-  border-top: 4px solid white;
-}
-
-.header__link a:hover {
-  background-color: #deebff;
+  padding-top: 2.8125rem;
+  border-top: 0.25rem solid white;
 }
 
 .header__link a:nth-child(1) {
-  border-top: 4px solid #0065fc;
+  border-top: 0.25rem solid #0065fc;
   color: #0065fc;
 }
 
@@ -110,17 +113,17 @@ _____________________________________________________
 .nav__img {
   vertical-align: middle;
   background-color: #f2f2f2;
-  width: 20px;
-  height: 60px;
+  width: 1.25rem;
+  height: 3.75rem;
   padding: 0 1.25rem;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
 }
 
 .nav__input {
-  width: 255px;
-  height: 58px;
-  border: 1px solid #f2f2f2;
+  width: 16rem;
+  height: 3.6rem;
+  border: 0.0625rem solid #f2f2f2;
   background-color: white;
   outline: none;
   font-size: 1.2rem;
@@ -128,31 +131,29 @@ _____________________________________________________
 }
 
 .nav__button {
-  height: 60px;
-  width: 155px;
+  height: 3.75rem;
+  width: 9.7rem;
   padding: 0.6rem;
   border: none;
   outline: none;
   font-size: 700;
   color: white;
   background-color: #0065fc;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  cursor: pointer;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
   font-size: 1.2rem;
 }
 
 .nav__button:active {
-  border: 4px solid black;
+  border: 0.25rem solid black;
 }
 
 .nav__filter {
-  max-width: 940px;
+  max-width: 59rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  /* padding: 0.3rem 0; */
 }
 
 .nav__filters {
@@ -164,14 +165,17 @@ _____________________________________________________
 
 .nav__icon {
   padding: 1rem;
+  margin: -0.2rem; /* rajouter des marges négatives */
+  margin-left: -0.25rem;
+  margin-right: 0.75rem;
   background-color: #deebff;
   border-radius: 100%;
 }
 
 .nav__filter a {
-  padding-right: 10px;
-  border: 3px solid lightgray;
-  border-radius: 50px;
+  padding-right: 0.625rem;
+  border: 0.2rem solid lightgray;
+  border-radius: 3.125rem;
 }
 
 .nav__infos {
@@ -208,7 +212,7 @@ _____________________________________________________
  */
 .main {
   flex: 0.7;
-  min-width: 510px;
+  min-width: 32rem;
   background-color: #f2f2f2;
   padding: 1.25rem;
   border-radius: 1rem;
@@ -224,8 +228,8 @@ _____________________________________________________
 }
 
 .main__card {
-  width: 245px;
-  height: 200px;
+  width: 15.3125rem;
+  height: 12.5rem;
   padding: 0.25rem;
   background-color: white;
   margin-bottom: 2rem;
@@ -234,8 +238,8 @@ _____________________________________________________
 }
 
 .main__img {
-  width: 245px;
-  height: 115px;
+  width: 15.3125rem;
+  height: 7.1875rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   object-fit: cover;
@@ -261,7 +265,7 @@ _____________________________________________________
  */
 .aside {
   flex: 0.3;
-  min-width: 350px;
+  min-width: 21rem;
   padding: 1.25rem;
   background-color: #f2f2f2;
   border-radius: 1rem;
@@ -275,22 +279,22 @@ _____________________________________________________
 }
 
 .aside__card {
-  width: 345px;
-  height: 145px;
+  width: 21.5625rem;
+  height: 9.0625rem;
   padding: 0.25rem;
   background-color: white;
   margin-bottom: 2rem;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: flex;
   justify-content: left;
 }
 
 .aside__img {
-  width: 130px;
-  height: 145px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  width: 8.125rem;
+  height: 9.0625rem;
+  border-top-left-radius: 0.625rem;
+  border-bottom-left-radius: 0.625rem;
   object-fit: cover;
 }
 
@@ -324,13 +328,13 @@ _____________________________________________________
 
 .article__card--style {
   margin: 0.25rem;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .article__card {
-  width: 300px;
-  height: 445px;
+  width: 18.75rem;
+  height: 27.8125rem;
 }
 
 .article__group1 {
@@ -340,13 +344,13 @@ _____________________________________________________
 }
 
 .article__card2 {
-  width: 300px;
-  height: 235px;
+  width: 18.75rem;
+  height: 14.6875rem;
 }
 
 .article__card3 {
-  width: 300px;
-  height: 165px;
+  width: 18.75rem;
+  height: 10.3125rem;
 }
 
 .article__group2 {
@@ -356,13 +360,13 @@ _____________________________________________________
 }
 
 .article__card4 {
-  width: 300px;
-  height: 195px;
+  width: 18.75rem;
+  height: 12.1875rem;
 }
 
 .article__card5 {
-  width: 300px;
-  height: 205px;
+  width: 18.75rem;
+  height: 12.8125rem;
 }
 
 .article__img {
@@ -372,28 +376,28 @@ _____________________________________________________
 }
 
 .act1 {
-  width: 300px;
-  height: 390px;
+  width: 18.75rem;
+  height: 24.375rem;
 }
 
 .act2 {
-  width: 300px;
-  height: 180px;
+  width: 18.75rem;
+  height: 11.25rem;
 }
 
 .act3 {
-  width: 300px;
-  height: 110px;
+  width: 18.75rem;
+  height: 6.875rem;
 }
 
 .act5 {
-  width: 300px;
-  height: 140px;
+  width: 18.75rem;
+  height: 8.75rem;
 }
 
 .act6 {
-  width: 300px;
-  height: 155px;
+  width: 18.75rem;
+  height: 9.6875rem;
 }
 
 .article__txt {
@@ -416,7 +420,7 @@ _____________________________________________________
 .footer {
   display: flex;
   padding: 2.125rem 3.125rem;
-  max-width: 1340px;
+  max-width: 83.75rem;
   margin: 0 auto;
   background-color: #f2f2f2;
 }
