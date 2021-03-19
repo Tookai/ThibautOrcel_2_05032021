@@ -19,9 +19,9 @@ _____________________________________________________
 
   .container {
     padding: 0;
-    width: 375px;
-    max-width: 375px;
-    min-width: 375px;
+    width: 23.4375rem;
+    max-width: 23.4375rem;
+    min-width: 23.4375rem;
   }
 
   /* HEADER */
@@ -29,7 +29,7 @@ _____________________________________________________
   .header {
     display: block;
     padding: 0;
-    width: 375px;
+    width: 23.4375rem;
     height: 8.25rem;
     margin-bottom: 2rem;
   }
@@ -77,31 +77,19 @@ _____________________________________________________
 
   .nav {
     padding: 0 1.25rem;
-    width: 375px;
+    width: 23.4375rem;
   }
 
   .nav__search {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .nav__img {
-    vertical-align: middle;
-    background-color: #f2f2f2;
-    width: 52px;
-    height: 52px;
-    padding: 0 1.25rem;
-    border-top-left-radius: 1.25rem;
-    border-bottom-left-radius: 1.25rem;
-  }
-
-  .nav__input {
-    width: 239px;
-    height: 52px;
+    width: 3.25rem;
   }
 
   .nav__button {
-    height: 52px;
-    width: 52px;
+    width: 3.25rem;
     font-size: 0rem;
     border-radius: 1rem;
     margin-left: -10px;
@@ -112,22 +100,20 @@ _____________________________________________________
   }
 
   .nav__filter {
-    max-width: 375px;
     display: block;
   }
 
   .nav__filters {
-    flex: 1;
-    display: flex;
-    justify-content: left;
     flex-wrap: wrap;
     margin: 0;
   }
 
   .nav__filters a {
     border: 0.15rem solid lightgray;
-    margin-right: 14px;
-    margin-bottom: 14px;
+    font-size: 1rem;
+    margin: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0.8rem;
   }
 
   .nav__infos {
@@ -145,7 +131,7 @@ _____________________________________________________
   /* MAIN */
   .main {
     padding: 2rem 1.25rem;
-    width: 375px;
+    width: 23.4375rem;
     min-width: 0;
     background-color: white;
     margin-bottom: 0;
@@ -155,7 +141,7 @@ _____________________________________________________
     width: 20.9rem;
     height: 12.5rem;
     padding: 0.25rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1.2rem;
   }
 
   .main__img {
@@ -174,7 +160,7 @@ _____________________________________________________
   /* ASIDE */
   .aside {
     padding: 2rem 1.25rem;
-    width: 375px;
+    width: 23.4375rem;
     border-radius: 0;
     margin-bottom: 0;
   }
@@ -182,15 +168,11 @@ _____________________________________________________
   .aside__card {
     width: 20.9rem;
     height: 9.0625rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1.2rem;
   }
 
   .aside__img {
-    width: 8.125rem;
-    height: 137px;
-    border-top-left-radius: 0.625rem;
-    border-bottom-left-radius: 0.625rem;
-    object-fit: cover;
+    height: 8.56rem;
   }
 
   /* aside */
@@ -199,7 +181,7 @@ _____________________________________________________
 
   .article {
     padding: 0 1.25rem;
-    width: 375px;
+    width: 23.4375rem;
   }
 
   .article__cards {
@@ -213,7 +195,7 @@ _____________________________________________________
   .article__card6 {
     width: 20.9rem;
     height: 190px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
   }
 
   .act1,
@@ -232,7 +214,7 @@ _____________________________________________________
   .footer {
     padding: 2rem 1.25rem;
     padding-bottom: 10rem;
-    width: 375px;
+    width: 23.4375rem;
     flex-direction: column;
   }
 
