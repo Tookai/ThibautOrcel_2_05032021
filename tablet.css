@@ -3,7 +3,7 @@
 **
 ***
 _____________________________________________________
-MOBILE
+TABLET
 _____________________________________________________
 
 ***
@@ -11,7 +11,7 @@ _____________________________________________________
 *
  */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1160px) {
   * {
     font-size: 16px;
     box-sizing: border-box;
@@ -19,9 +19,9 @@ _____________________________________________________
 
   .container {
     padding: 0;
-    width: 23.4375rem;
-    max-width: 23.4375rem;
-    min-width: 23.4375rem;
+    width: 48rem;
+    max-width: 48rem;
+    min-width: 48rem;
   }
 
   /* HEADER */
@@ -29,7 +29,7 @@ _____________________________________________________
   .header {
     display: block;
     padding: 0;
-    width: 23.4375rem;
+    width: 48rem;
     height: 8.25rem;
     margin-bottom: 2rem;
   }
@@ -77,11 +77,12 @@ _____________________________________________________
 
   .nav {
     padding: 0 1.25rem;
-    width: 23.4375rem;
+    width: 48rem;
   }
 
   .nav__search {
     margin-top: 1rem;
+    justify-content: center;
   }
 
   .nav__img {
@@ -131,10 +132,14 @@ _____________________________________________________
   /* MAIN */
   .main {
     padding: 2rem 1.25rem;
-    width: 23.4375rem;
+    width: 48rem;
     min-width: 0;
     background-color: white;
     margin-bottom: 0;
+  }
+
+  .main__cards {
+      justify-content: space-evenly;
   }
 
   .main__card {
@@ -160,9 +165,15 @@ _____________________________________________________
   /* ASIDE */
   .aside {
     padding: 2rem 1.25rem;
-    width: 23.4375rem;
+    width: 48rem;
     border-radius: 0;
     margin-bottom: 0;
+  }
+
+  .aside__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .aside__card {
@@ -181,30 +192,34 @@ _____________________________________________________
 
   .article {
     padding: 0 1.25rem;
-    width: 23.4375rem;
+    width: 48rem;
   }
 
-  .article__cards {
-    flex-direction: column;
+  .article__card {
+    width: 20.9rem;
+    height: 28.3125rem;
+    margin-bottom: 1.2rem;
   }
 
-  .article__card,
   .article__card2,
   .article__card3,
   .article__card5,
   .article__card6 {
     width: 20.9rem;
-    height: 11.875rem;
+    height: 12rem;
     margin-bottom: 1.2rem;
   }
 
-  .act1,
+  .act1 {
+    width: 20.9rem;
+  }
+
   .act2,
   .act3,
   .act5,
   .act6 {
     width: 20.9rem;
-    height: 8.4375rem;
+    height: 8.5rem;
   }
 
   /* article */
@@ -213,13 +228,15 @@ _____________________________________________________
 
   .footer {
     padding: 2rem 1.25rem;
-    width: 23.4375rem;
-    flex-direction: column;
+    width: 48rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .footer__about,
   .footer__hebergements,
   .footer__assistance {
+    flex: auto;
     padding: 0.6rem 0;
   }
 
