@@ -22,10 +22,11 @@ h3 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
-  color: inherit;
+  color: black;
 }
 
 body {
@@ -49,6 +50,10 @@ i {
   border-radius: 100%;
   padding: 0.3rem 0.6rem;
   margin-right: 0.5rem;
+}
+
+.star {
+  letter-spacing: -1px;
 }
 
 /*
@@ -173,7 +178,6 @@ _____________________________________________________
 }
 
 .nav__filters {
-  flex: 1;
   display: flex;
   justify-content: left;
   margin: 1rem;
@@ -253,7 +257,7 @@ _____________________________________________________
 
 .main__card {
   width: 14.8125rem;
-  height: 12.5rem;
+  /*   height: 12.5rem; */
   padding: 0.25rem;
   background-color: white;
   margin-bottom: 2rem;
@@ -273,6 +277,7 @@ _____________________________________________________
 .main__card div,
 .main__card p {
   padding: 0.25rem;
+  padding-left: 0.7rem;
 }
 
 /*
@@ -327,11 +332,12 @@ _____________________________________________________
 }
 
 .aside__txt {
-  width: 14rem;
+  width: 11rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0.2rem 1rem;
+  padding-right: 0;
 }
 
 /*
