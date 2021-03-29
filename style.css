@@ -29,10 +29,6 @@ a:visited {
   color: black;
 }
 
-body {
-  background-color: lightgray;
-}
-
 i {
   color: #0065fc;
 }
@@ -257,9 +253,9 @@ _____________________________________________________
 
 .main__card {
   width: 14.8125rem;
-  /*   height: 12.5rem; */
   padding: 0.25rem;
   background-color: white;
+  margin: 0.5rem;
   margin-bottom: 2rem;
   border-radius: 1.2rem;
   box-shadow: rgba(100, 100, 111, 0.3) 4px 4px 10px 0px;
@@ -451,10 +447,15 @@ _____________________________________________________
 *
  */
 
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
 .footer {
   display: flex;
   padding: 2.125rem 3.125rem;
-  max-width: 83.75rem;
+  max-width: 83.75rem; /* revoir la taille */
   margin: 0 auto;
   background-color: #f2f2f2;
 }
