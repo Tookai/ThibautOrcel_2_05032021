@@ -199,6 +199,12 @@ _____________________________________________________
   align-items: middle;
 }
 
+.nav__filters a:hover {
+  background-color: lightgrey;
+  border: 0.15rem solid #0065fc;
+  transition: 0.4s;
+}
+
 .nav__infos {
   padding: 1.25rem 0 2rem 0;
 }
