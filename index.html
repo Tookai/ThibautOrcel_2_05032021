@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <!--     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile.css" />
-    <link rel="stylesheet" href="tablet.css" />
+    
+    <link rel="stylesheet" href="tablet.css" /> -->
+    <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -21,58 +23,57 @@
       <!-- Entête du site -->
 
       <header class="header">
-        <div class="header__tittle">
+        <div class="header__title">
           <img src="img/reservia.png" alt="Logo Reservia" class="header__logo" />
-          <a href="#" class="header__sub1">S'inscrire</a>
         </div>
-        <div class="header__link">
-          <a href="#hebergements">Hébergements</a>
+        <nav class="header__link">
+          <a href="#hebergements" class="active">Hébergements</a>
           <a href="#activite">Activités</a>
-          <a href="#" class="header__sub2">S'inscrire</a>
-        </div>
+        </nav>
+        <a href="#" class="header__sub">S'inscrire</a>
       </header>
 
       <!-- Section de recherche / filtres -->
 
-      <nav class="nav">
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <section class="section">
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
-        <div class="nav__search">
-          <img src="img/map.svg" alt="" class="nav__img" />
-          <input type="text" value="Marseille, France" class="nav__input" />
-          <button class="nav__button"><i class="fas fa-search" style="color: white"></i>Rechercher</button>
+        <div class="section__search">
+          <img src="img/map.svg" alt="" class="section__img" />
+          <input type="text" value="Marseille, France" class="section__input" />
+          <button class="section__button"><i class="fas fa-search" style="color: white"></i>Rechercher</button>
         </div>
-        <div class="nav__filter">
-          <h2>Filtres</h2>
-          <div class="nav__filters">
+        <div class="section__filter">
+          <h3>Filtres</h3>
+          <div class="section__filters">
             <a href="#">
-              <i class="fas fa-money-bill-wave nav__icon" style="padding: 16px 14px"></i>
+              <i class="fas fa-money-bill-wave section__icon" style="padding: 16px 14px"></i>
               Économique
             </a>
             <a href="#">
-              <i class="fas fa-child nav__icon" style="padding: 16px 18px"></i>
+              <i class="fas fa-child section__icon" style="padding: 16px 18px"></i>
               Familial
             </a>
             <a href="#">
-              <i class="fas fa-heart nav__icon"></i>
+              <i class="fas fa-heart section__icon"></i>
               Romantique
             </a>
             <a href="#">
-              <i class="fas fa-dog nav__icon"></i>
+              <i class="fas fa-dog section__icon"></i>
               Animaux autorisés
             </a>
           </div>
         </div>
-        <div class="nav__infos">
+        <div class="section__infos">
           <span><i class="fas to-border fa-info"></i></span>
           <span>Plus de 500 logements sont disponibles dans cette ville</span>
         </div>
-      </nav>
+      </section>
 
       <!-- Section Hébergements -->
       <div class="column">
         <main class="main">
-          <h1 id="hebergements">Hébergements à Marseille</h1>
+          <h2 id="hebergements">Hébergements à Marseille</h2>
           <div class="main__cards">
             <a href="#" class="main__card">
               <!-- regarder la hauteur flex -->
@@ -153,14 +154,14 @@
               </div>
             </a>
           </div>
-          <h2>Afficher plus</h2>
+          <h3>Afficher plus</h3>
         </main>
 
         <!-- Section Les plus populaires -->
 
         <aside class="aside">
           <div class="aside__title">
-            <h1>Les plus populaires</h1>
+            <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line fa-2x" style="color: black"></i>
           </div>
           <div class="aside__cards">
@@ -221,7 +222,7 @@
       <!-- Section Activités à Marseille -->
 
       <article class="article">
-        <h1 id="activite">Activités à Marseille</h1>
+        <h2 id="activite">Activités à Marseille</h2>
         <div class="article__cards">
           <a href="#" class="article__card article__card--style">
             <img src="img/act1.jpg" alt="vieux port" class="article__img act1" />
