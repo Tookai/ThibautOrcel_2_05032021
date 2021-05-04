@@ -90,7 +90,7 @@ _____________________________________________________
 .header__title {
   order: 1;
   width: 50%;
-  /*   padding: 1.25rem; */
+  padding: 1.25rem;
 }
 
 .header__sub {
@@ -581,6 +581,7 @@ _____________________________________________________
   .header__title {
     order: 1;
     width: 100%;
+    padding: 0;
     padding-top: 1.9rem;
   }
 
@@ -677,6 +678,32 @@ _____________________________________________________
 
   .article__cards {
     justify-content: space-evenly;
+  }
+
+  .act1 {
+    height: 24.375rem;
+  }
+
+  .act2 {
+    height: 11.25rem;
+  }
+
+  .act3 {
+    height: 6.875rem;
+  }
+
+  .act5 {
+    height: 8.75rem;
+  }
+
+  .act6 {
+    height: 9.6875rem;
+  }
+
+  .article__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .footer {
