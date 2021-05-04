@@ -29,7 +29,7 @@
   }
 
   .main__img {
-    width: 15rem;
+    width: 14.8rem;
   }
 
   .aside__cards {
@@ -46,6 +46,7 @@
 
   .article__cards {
     justify-content: space-evenly;
+    margin: 0 auto;
   }
 
   .article__card--style {
@@ -64,13 +65,13 @@
   .footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: left;
   }
 
   .footer__about,
   .footer__hebergements,
   .footer__assistance {
-    width: 250px;
-    flex: none;
+    min-width: 250px;
+    flex: 1;
   }
 }
