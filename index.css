@@ -17,8 +17,8 @@ body {
 }
 
 h2 {
-  font-size: 1.5rem;
-  padding: 1rem 0 1.5rem 0;
+  font-size: 1.4rem;
+  padding: 1rem 0;
 }
 
 h3 {
@@ -130,6 +130,118 @@ _____________________________________________________
 ***
 _____________________________________________________
 Recherche / Filtre
+_____________________________________________________
+
+***
+**
+*
+ */
+
+.section {
+  padding: 1.25rem;
+}
+
+.section__search {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.section__img {
+  background-color: #f2f2f2;
+  width: 3.25rem;
+  height: 3.25rem;
+  padding: 0 1.125rem;
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
+.section__input {
+  border: 0.0625rem solid #f2f2f2;
+  padding-left: 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.section__button {
+  background-color: #0065fc;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 0;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+.section__button:active {
+  border: 0.25rem solid black;
+}
+
+.section__filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section__filters a {
+  border: 0.15rem solid lightgray;
+  border-radius: 3.125rem;
+  padding-right: 1.2rem;
+  margin: 0.4rem 0.5rem;
+  margin-left: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  align-items: middle;
+}
+
+.section__icon {
+  padding: 1rem;
+  margin: -0.15rem;
+  margin-left: -0.25rem;
+  margin-right: 0.55rem;
+  background-color: #deebff;
+  border-radius: 100%;
+}
+
+.econ {
+  padding: 1rem 0.875rem;
+}
+
+.family {
+  padding: 1rem 1.125rem;
+}
+
+.section__infos {
+  display: flex;
+  align-items: start;
+  padding: 1.7rem 0;
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+Column
+_____________________________________________________
+
+***
+**
+*
+ */
+
+.column {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+MAIN
 _____________________________________________________
 
 ***
