@@ -453,3 +453,233 @@ footer {
 .footer__assistance a {
   padding: 0.5rem 0;
 }
+
+/*
+* 
+**
+***
+_____________________________________________________
+TABLETTE
+_____________________________________________________
+
+***
+**
+*
+ */
+
+@media only screen and (min-width: 420px) {
+  .container {
+    width: 100%;
+  }
+
+  .section,
+  .aside,
+  .main,
+  .article,
+  .footer {
+    padding: 1.8rem 2.5rem;
+  }
+
+  .section__search {
+    justify-content: center;
+  }
+
+  .section__filters {
+    justify-content: center;
+  }
+
+  .main__cards {
+    justify-content: space-evenly;
+  }
+
+  .main__card {
+    margin: 0 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .main__img {
+    width: 14.8rem;
+  }
+
+  .aside__cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .aside__card {
+    width: 21rem;
+    margin: 0 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .article__cards {
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .article__card--style {
+    margin: 0 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .article__img {
+    width: 18.75rem;
+  }
+
+  .act1 {
+    height: 21.2rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .footer__about,
+  .footer__hebergements,
+  .footer__assistance {
+    min-width: 250px;
+    flex: 1;
+  }
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+DESKTOP
+_____________________________________________________
+
+***
+**
+*
+ */
+
+@media only screen and (min-width: 1170px) {
+  .section,
+  .aside,
+  .main,
+  .article,
+  .footer {
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1440px;
+    padding: 0 3.125rem;
+  }
+
+  .header {
+    padding-top: 0;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+
+  .header__title {
+    order: 1;
+    width: 100%;
+    padding-top: 1.9rem;
+  }
+
+  .header__sub {
+    order: 3;
+    width: auto;
+    padding-top: 2.8rem;
+    border-top: 0.25rem solid white;
+  }
+
+  .header__link {
+    order: 2;
+    width: auto;
+  }
+
+  .header__link a {
+    padding: 1.25rem;
+    border-bottom: none;
+    width: auto;
+    padding-top: 2.8rem;
+    border-top: 0.25rem solid white;
+  }
+
+  .header__link .active {
+    border-bottom: none;
+    border-top: 0.25rem solid #0065fc;
+  }
+
+  .section__search {
+    justify-content: left;
+    padding: 1.5rem 0;
+  }
+
+  .section__button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    width: 8.5rem;
+    border-radius: 0;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+  }
+
+  .section__button i {
+    display: none;
+  }
+
+  .section__filter {
+    display: flex;
+    align-items: center;
+  }
+
+  .section__filters {
+    justify-content: left;
+    margin-left: 1rem;
+  }
+
+  .section__filters a {
+    margin: 0 1rem;
+  }
+
+  .column {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main {
+    max-width: 63rem;
+    margin-right: 2rem;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  .main__card {
+    background-color: white;
+  }
+
+  .aside {
+    max-width: 25rem;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  .aside__card {
+    margin: 0;
+    margin-bottom: 1.2rem;
+  }
+
+  .article {
+    padding: 3rem 0;
+  }
+
+  .article__cards {
+    justify-content: space-evenly;
+  }
+
+  .footer {
+    padding: 2rem 3.125rem;
+  }
+}
