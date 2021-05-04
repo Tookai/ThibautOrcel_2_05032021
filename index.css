@@ -22,8 +22,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
-  padding: 1rem 0;
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
 }
 
 h4 {
@@ -195,6 +195,12 @@ _____________________________________________________
   align-items: middle;
 }
 
+.section__filters a:hover {
+  background-color: lightgrey;
+  border: 0.15rem solid #0065fc;
+  transition: 0.4s;
+}
+
 .section__icon {
   padding: 1rem;
   margin: -0.15rem;
@@ -216,6 +222,10 @@ _____________________________________________________
   display: flex;
   align-items: start;
   padding: 1.7rem 0;
+}
+
+.section__infos i {
+  font-size: 0.75rem;
 }
 
 /*
@@ -248,3 +258,89 @@ _____________________________________________________
 **
 *
  */
+
+.main {
+  padding: 1.8rem 1.25rem;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.main__card {
+  padding: 0.25rem;
+  box-shadow: rgba(100, 100, 111, 0.3) 4px 4px 10px 0px;
+  border-radius: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.main__img {
+  width: 20rem;
+  height: 7rem;
+  object-fit: cover;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+
+.main__card h3,
+.main__card div,
+.main__card p {
+  padding: 0.25rem;
+  padding-left: 0.7rem;
+}
+/*
+* 
+**
+***
+_____________________________________________________
+ASIDE
+_____________________________________________________
+
+***
+**
+*
+ */
+
+.aside {
+  padding: 1.8rem 1.25rem;
+  background-color: #f2f2f2;
+}
+
+.aside__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aside__title i {
+  font-size: 1.5rem;
+}
+
+.aside__card {
+  display: flex;
+  padding: 0.25rem;
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 1.2rem;
+  box-shadow: rgba(100, 100, 111, 0.3) 4px 4px 10px 0px;
+}
+
+.aside__img {
+  width: 8rem;
+  height: 9rem;
+  object-fit: cover;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+}
+
+.aside__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.2rem 1rem;
+  padding-right: 0;
+  flex: 1;
+}
