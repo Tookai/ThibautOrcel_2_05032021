@@ -221,7 +221,7 @@ _____________________________________________________
 .section__infos {
   display: flex;
   align-items: start;
-  padding: 1.7rem 0;
+  padding: 1.8rem 0;
 }
 
 .section__infos i {
@@ -291,6 +291,11 @@ _____________________________________________________
   padding: 0.25rem;
   padding-left: 0.7rem;
 }
+
+.main__showMore {
+  padding: 1.25rem 0;
+  padding-bottom: 0;
+}
 /*
 * 
 **
@@ -343,4 +348,88 @@ _____________________________________________________
   padding: 0.2rem 1rem;
   padding-right: 0;
   flex: 1;
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+ARTICLE
+_____________________________________________________
+
+***
+**
+*
+ */
+
+.article {
+  padding: 1.8rem 1.25rem;
+}
+
+.article__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article__card--style {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  border-radius: 1.2rem;
+  box-shadow: rgba(100, 100, 111, 0.3) 4px 4px 10px 0px;
+}
+
+.article__img {
+  width: 20rem;
+  height: 8.5rem;
+  object-fit: cover;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+
+.article__txt {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/*
+* 
+**
+***
+_____________________________________________________
+FOOTER
+_____________________________________________________
+
+***
+**
+*
+ */
+
+.footer {
+  padding: 1.8rem 1.25rem;
+  padding-bottom: 2rem;
+  background-color: #f2f2f2;
+}
+
+.footer__about,
+.footer__hebergements,
+.footer__assistance {
+  flex: 1;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__about h3,
+.footer__hebergements h3,
+.footer__assistance h3 {
+  padding: 1rem 0;
+}
+
+.footer__about a,
+.footer__hebergements a,
+.footer__assistance a {
+  padding: 0.5rem 0;
 }
