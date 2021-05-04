@@ -1,0 +1,76 @@
+@media only screen and (min-width: 420px) {
+  .container {
+    width: 100%;
+  }
+
+  .section,
+  .aside,
+  .main,
+  .article,
+  .footer {
+    padding: 1.8rem 2.5rem;
+  }
+
+  .section__search {
+    justify-content: center;
+  }
+
+  .section__filters {
+    justify-content: center;
+  }
+
+  .main__cards {
+    justify-content: space-evenly;
+  }
+
+  .main__card {
+    margin: 0 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .main__img {
+    width: 15rem;
+  }
+
+  .aside__cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .aside__card {
+    width: 21rem;
+    margin: 0 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .article__cards {
+    justify-content: space-evenly;
+  }
+
+  .article__card--style {
+    margin: 0 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .article__img {
+    width: 18.75rem;
+  }
+
+  .act1 {
+    height: 21.2rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .footer__about,
+  .footer__hebergements,
+  .footer__assistance {
+    width: 250px;
+    flex: none;
+  }
+}

@@ -138,12 +138,12 @@ _____________________________________________________
  */
 
 .section {
-  padding: 1.25rem;
+  padding: 1.8rem 1.25rem;
 }
 
 .section__search {
   display: flex;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .section__img {
@@ -263,6 +263,10 @@ _____________________________________________________
   padding: 1.8rem 1.25rem;
 }
 
+.main h2 {
+  padding-bottom: 1.5rem;
+}
+
 .main__cards {
   display: flex;
   justify-content: center;
@@ -312,6 +316,10 @@ _____________________________________________________
 .aside {
   padding: 1.8rem 1.25rem;
   background-color: #f2f2f2;
+}
+
+.aside h2 {
+  padding-bottom: 1.5rem;
 }
 
 .aside__title {
