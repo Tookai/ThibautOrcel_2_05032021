@@ -180,6 +180,10 @@ _____________________________________________________
   font-weight: bold;
 }
 
+::placeholder {
+  color: black;
+}
+
 .section__button {
   background-color: #0065fc;
   width: 3.25rem;
