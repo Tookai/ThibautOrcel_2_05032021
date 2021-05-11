@@ -22,14 +22,8 @@ h2 {
   padding: 1rem 0;
 }
 
-.h2 {
-  font-size: 1.4rem;
-  padding: 1rem 0;
-  font-weight: bold;
-}
-
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   padding: 0.4rem 0;
 }
 
@@ -571,10 +565,6 @@ _____________________________________________________
     }
   }
 
-  /*     .article__img {
-    width: 18.75rem;
-  } */
-
   .act1 {
     height: 21.2rem;
   }
@@ -688,8 +678,9 @@ _____________________________________________________
     margin-left: 1rem;
   }
 
-  .section__filters a {
-    margin: 0 1rem;
+  .section__filters button {
+    margin-left: 1rem;
+    font-size: 1.2rem;
   }
 
   .column {
@@ -705,7 +696,14 @@ _____________________________________________________
     border-radius: 1rem;
   }
 
+  .main__cards {
+    justify-content: space-between;
+  }
+
   .main__card {
+    margin: 0;
+    margin-bottom: 1.2rem;
+    margin-right: 1rem;
     background-color: white;
     max-width: 14.8rem;
   }
