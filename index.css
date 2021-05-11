@@ -93,7 +93,7 @@ _____________________________________________________
 *
  */
 
-.header {
+.header nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -620,7 +620,7 @@ _____________________________________________________
     padding: 0 3.125rem;
   }
 
-  .header {
+  .header nav {
     padding-top: 0;
     flex-wrap: nowrap;
     justify-content: flex-end;
